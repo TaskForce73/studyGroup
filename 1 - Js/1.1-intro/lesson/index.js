@@ -131,23 +131,23 @@
 // console.log(parseJson)
 
 //-----OBJ OF STORE----
-const store = {
-    products: [
-        // {name:..., price...}
-    ],
-    addNewProduct: function (id, name, price) {
-        return this.products.push({ id, name, price })
-    },
-    deleteProduct: function (id) {
-        console.log(id)
-        // this.products
-        return this.products.filter((item) => item.id !== id)
-    }
-}
+// const store = {
+//     products: [
+//         // {name:..., price...}
+//     ],
+//     addNewProduct: function (id, name, price) {
+//         return this.products.push({ id, name, price })
+//     },
+//     deleteProduct: function (id) {
+//         console.log(id)
+//         // this.products
+//         return this.products.filter((item) => item.id !== id)
+//     }
+// }
 
-store.addNewProduct(12, "apple", 789)
-store.addNewProduct(15, "banana", 789)
+// store.addNewProduct(12, "apple", 789)
+// store.addNewProduct(15, "banana", 789)
 // console.log(store.products)
 
 // console.log(store.products)
-console.log(store.deleteProduct(15))
+// console.log(store.deleteProduct(15))
